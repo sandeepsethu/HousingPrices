@@ -61,67 +61,72 @@ Lasso meanwhile scores the worst which might explain that removing features make
 According to OLS, the effects of the different dependent variables can be identified from the table below:
 
 
-variables	coef
-income	-0.2885
-insurance	0.2702
-sav_rate	0.0471
-houses_Sold	0.1897
-for_sale	0.5381
-house_supply	-0.0286
-expenses	0.1472
-mortage	0.0097
-tax	0.2649
-emp_rate	-0.1091
-popln	0.1729
-gdp	0.0495
-own_rate	0.0094
-rent	0.4782
-month_sin	-0.0172
-month_cosin	0.0085
+| variables    | coef    |
+|--------------|---------|
+| income       | -0.2885 |
+| insurance    | 0.2702  |
+| sav_rate     | 0.0471  |
+| houses_Sold  | 0.1897  |
+| for_sale     | 0.5381  |
+| house_supply | -0.0286 |
+| expenses     | 0.1472  |
+| mortage      | 0.0097  |
+| tax          | 0.2649  |
+| emp_rate     | -0.1091 |
+| popln        | 0.1729  |
+| gdp          | 0.0495  |
+| own_rate     | 0.0094  |
+| rent         | 0.4782  |
+| month_sin    | -0.0172 |
+| month_cosin  | 0.0085  |
+|              |         |
+
 
 
 According to Ridge:
 
-variables	coef
-const	0.0029
-income	-0.2861
-insurance	0.2737
-sav_rate	0.0462
-houses_Sold	0.189
-for_sale	0.5378
-house_supply	-0.0285
-expenses	0.1493
-mortage	0.0097
-tax	0.2643
-emp_rate	-0.1097
-popln	0.1667
-gdp	0.0494
-own_rate	0.0087
-rent	0.4767
-month_sin	-0.0172
-month_cosin	0.0085
+
+| variables    | coef    |
+|--------------|---------|
+| const        | 0.0029  |
+| income       | -0.2861 |
+| insurance    | 0.2737  |
+| sav_rate     | 0.0462  |
+| houses_Sold  | 0.189   |
+| for_sale     | 0.5378  |
+| house_supply | -0.0285 |
+| expenses     | 0.1493  |
+| mortage      | 0.0097  |
+| tax          | 0.2643  |
+| emp_rate     | -0.1097 |
+| popln        | 0.1667  |
+| gdp          | 0.0494  |
+| own_rate     | 0.0087  |
+| rent         | 0.4767  |
+| month_sin    | -0.0172 |
+| month_cosin  | 0.0085  |
 
 
 According to Lasso:
 
-variables	coef
-const	0.0071
-income	0.0793
-insurance	0.4608
-sav_rate	0
-houses_Sold	0
-for_sale	0.3675
-house_supply	0
-expenses	0.3372
-mortage	0
-tax	0
-emp_rate	0
-popln	0
-gdp	0
-own_rate	0
-rent	0
-month_sin	0
-month_cosin	0
-
+| variables    | coef   |
+|--------------|--------|
+| const        | 0.0071 |
+| income       | 0.0793 |
+| insurance    | 0.4608 |
+| sav_rate     | 0      |
+| houses_Sold  | 0      |
+| for_sale     | 0.3675 |
+| house_supply | 0      |
+| expenses     | 0.3372 |
+| mortage      | 0      |
+| tax          | 0      |
+| emp_rate     | 0      |
+| popln        | 0      |
+| gdp          | 0      |
+| own_rate     | 0      |
+| rent         | 0      |
+| month_sin    | 0      |
+| month_cosin  | 0      |
 
 The coefficient tells you how much the dependent variable is expected to increase when that independent variable increases by one, holding all the other independent variables constant.
