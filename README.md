@@ -12,23 +12,38 @@ More specifically, the correlation between price and the different variables are
 
 
 price           1.000000
+
 expenses        0.864376
+
 income          0.861527
+
 rent            0.827607
+
 tax             0.810845
+
 insurance       0.808030
+
 popln           0.776034
+
 sav_rate        0.392359
+
 for_sale        0.231722
+
 mortage         0.223710
+
 house_supply    0.174870
+
 month_cosin     0.015736
+
 houses_Sold    -0.040696
+
 month_sin      -0.044992
+
 emp_rate       -0.070566
+
 gdp            -0.071009
+
 own_rate       -0.384955
-Name: price, dtype: float64
 
 
 However, this causation doesnt imply correlation.
@@ -128,5 +143,6 @@ According to Lasso:
 | rent         | 0      |
 | month_sin    | 0      |
 | month_cosin  | 0      |
+
 
 The coefficient tells you how much the dependent variable is expected to increase when that independent variable increases by one, holding all the other independent variables constant.
